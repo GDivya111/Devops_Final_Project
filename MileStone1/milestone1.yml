@@ -1,9 +1,0 @@
-# ansible-playbook  --ask-vault-pass milestone1.yml -i inventory -vvv
----
-
-- hosts: all
-
-- include: node.yml
-
-- include: JenkinsConfig.yml
-
